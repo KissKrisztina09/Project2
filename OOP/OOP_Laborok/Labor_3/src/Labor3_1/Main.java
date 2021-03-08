@@ -20,5 +20,9 @@ public class Main {
 
         //System.out.println(customer2);
 
+        //customer2.setLastName("BLACK");
+       // customer2.setAccount(customer1.getAccount());
+       // System.out.println(customer2);
+
     }
 }
