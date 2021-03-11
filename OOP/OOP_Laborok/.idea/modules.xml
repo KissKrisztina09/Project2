@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Labor_1/Labor1.iml" filepath="$PROJECT_DIR$/Labor_1/Labor1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Labor4/Labor4.iml" filepath="$PROJECT_DIR$/Labor4/Labor4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labor_1/Labor_1.iml" filepath="$PROJECT_DIR$/Labor_1/Labor_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labor_2/Labor_2.iml" filepath="$PROJECT_DIR$/Labor_2/Labor_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Labor_3/Labor_3.iml" filepath="$PROJECT_DIR$/Labor_3/Labor_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Labor_4/Labor_4.iml" filepath="$PROJECT_DIR$/Labor_4/Labor_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/OOP_Laborok.iml" filepath="$PROJECT_DIR$/OOP_Laborok.iml" />
     </modules>
   </component>
