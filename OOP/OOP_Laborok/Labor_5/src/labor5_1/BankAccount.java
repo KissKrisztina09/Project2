@@ -6,6 +6,7 @@ public class BankAccount {
     private static int counter = 0;
     private static final String PREFIX = "OTP";
     private static final int ACCOUNT_NUMBER_LENGTH=10;
+
     public BankAccount(){
         ++counter;
         this.accountNumber = createAccountNumber();
