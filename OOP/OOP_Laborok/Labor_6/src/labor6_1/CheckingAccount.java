@@ -17,8 +17,11 @@ public class CheckingAccount extends BankAccount{
 
     @Override
     public boolean withdraw(double amount) {
-        //@toDo ujrairni
-        return withdraw(amount);
+        if(amount > overdraftLimit){
+            return false;
+        }
+        this.overdraftLimit -= amount;
+        return true;
     }
 
     @Override

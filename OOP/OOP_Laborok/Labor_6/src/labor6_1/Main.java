@@ -7,7 +7,6 @@ public class Main {
         customer1.addAccount(new CheckingAccount(1000));
         System.out.println(customer1);
         System.out.println(customer1.getNumAccounts());
-        //customer1.getAccount(customer1.getNumAccounts().get(0)).deposit();
 
     }
 }
