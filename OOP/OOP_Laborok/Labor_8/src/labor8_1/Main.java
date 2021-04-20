@@ -22,9 +22,9 @@ public class Main {
 //            q2.enQueue( i );
 //        }
 //        System.out.println( q1.equals( q2 ));
-        IQueue queue = new ArrayListQueue(5); // new CircularQueue( 5 );
+        IQueue queue = new CircularQueue(5); // new CircularQueue( 5 );
         Random rnd = new Random();
-        for (int i = 0; i < 100; ++i) {
+        for (int i = 0; i < 20; ++i) {
             int value = rnd.nextInt(100);
             if (value < 50) {
                 System.out.println("Add: " + i);
@@ -33,7 +33,7 @@ public class Main {
                 if (queue.isEmpty()) {
                     System.out.println("Cannot delete from an empty queue");
                 } else {
-                    int element = (Integer) queue.deQueue();
+                    Object element = (Object)queue.deQueue();
                     System.out.println("Deleted: " + element);
                 }
             }
